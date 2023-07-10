@@ -37,6 +37,40 @@
   background: #e55473;
   padding: 20px 43px;
   color: #fff;
-  font-size: 20px;;
+  font-size: 20px;
   font-weight: 700;
+}
+/* footer section */
+footer {
+  background: #111010;
+  width: 1922px;
+  height: 449px;
+  text-align: center;
+}
+.footer-end {
+  color: white;
+  padding: 128px 640px 128px 640px;
+}
+.footer-end h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+.footer-end span {
+  color: #e55473;
+}
+.footer-end p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+.footer-end h4 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 30px;
 }
