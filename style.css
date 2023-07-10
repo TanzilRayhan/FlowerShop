@@ -46,6 +46,66 @@
   font-weight: 700;
 }
 /* Featured Section  */
+.featured {
+  text-align: center;
+  margin: 130px 240px 130px 240px;
+}
+.featured h1 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 32px 400px 32px 400px;
+}
+.featured-box {
+  display: flex;
+  align-items: center;
+}
+.featured-title {
+  display: flex;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+#yellow{
+  padding-top: 66px;
+}
+.featured-flowers{
+  padding-top: 110px;
+}
+.featured-title h3{
+  padding-top: 30px;
+  padding-left: 140px;
+  padding-right: 120px;
+}
+.box-1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-right: 24px;
+}
+
+.box-2 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  margin-right: 24px;
+}
+.box-3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
 /* service section  */
 .service {
   display: flex;
@@ -58,8 +118,8 @@
   align-items: center;
   text-align: center;
 }
-.service-icon{
-padding-left: 317px;
+.service-icon {
+  padding-left: 317px;
 }
 .service-info {
   color: rgba(39, 39, 39, 0.8);
@@ -70,7 +130,7 @@ padding-left: 317px;
   text-align: center;
   padding-top: 190px;
 }
-.service-title{
+.service-title {
   padding-right: 100px;
 }
 /* Hot sale section  */
