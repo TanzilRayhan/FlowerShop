@@ -263,7 +263,36 @@
   font-weight: 400;
   margin-right: 20px;
 }
-
+/* follow section  */
+.follow{
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 130px 20px 130px 240px;
+  text-align: center;
+  align-items: center;
+}
+.follow h1{
+  color: #272727;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.follow h5{
+  color: #e55473;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
+#icon{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#icon2{
+  padding-left: 10px;
+}
 /* footer section */
 footer {
   background: #111010;
