@@ -6,6 +6,8 @@
 .section-size {
   max-width: 1440px;
 }
+/* introduction */
+
 .header {
   background-color: rgba(229, 84, 115, 0.1);
   width: 1920px;
@@ -43,6 +45,33 @@
   font-size: 20px;
   font-weight: 700;
 }
+/* instagram section  */
+.instagram {
+  text-align: center;
+  margin: 130px 240px 130px 240px;
+}
+.instagram h1 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 32px 400px 32px 400px;
+}
+.flowers{
+    display: flex;
+    padding-right: 24px;
+}
+.flower-images {
+  width: 342px;
+  height: 396px;
+  padding-top: 30px;
+  padding-right: 24px;
+}
 /* subscription section  */
 .subscription {
   background-image: url("Images/Rectangle\ 9.png");
@@ -55,31 +84,32 @@
   height: 449px;
   flex-shrink: 0;
 }
-.subscription h1{
-    color: #272727;
-    padding-top: 122px;
-    padding-bottom: 30px ;
-font-size: 40px;
-font-weight: 800;
+.subscription h1 {
+  color: #272727;
+  padding-top: 122px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 800;
 }
-.subscription h5{
-    color: rgba(39, 39, 39, 0.60);
-        padding-bottom: 30px ;
-font-size: 18px;
-font-weight: 400;
+.subscription h5 {
+  color: rgba(39, 39, 39, 0.6);
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
 }
-.email-box{
-    width: 700px;
-height: 40px;
-border: none;
-border-radius: 8px;
-background: #FFF;
-padding: 15px 33px;
-color: rgba(39, 39, 39, 0.60);;
-font-size: 16px;
-font-weight: 400;
-margin-right: 20px;
+.email-box {
+  width: 700px;
+  height: 38px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px 33px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
 }
+
 /* footer section */
 footer {
   background: #111010;
