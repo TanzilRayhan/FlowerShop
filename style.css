@@ -64,7 +64,8 @@
 }
 .featured-box {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  /* margin-left: 10px; */
 }
 .featured-title {
   display: flex;
@@ -90,7 +91,7 @@
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  margin-right: 24px;
+  margin-right: 30px;
 }
 
 .box-2 {
@@ -98,7 +99,7 @@
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
-  margin-right: 24px;
+  margin-right: 30px;
 }
 .box-3 {
   width: 464px;
@@ -109,29 +110,35 @@
 /* service section  */
 .service {
   display: flex;
-  /* text-align: center; */
   width: 1440px;
   height: 320px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  margin: 130px 240px 130px 240px;
-  align-items: center;
+  margin: 130px 20px 130px 240px;
   text-align: center;
+  align-items: center;
 }
 .service-icon {
-  padding-left: 317px;
+  padding-left: 40px;
 }
-.service-info {
+.service h3{
   color: rgba(39, 39, 39, 0.8);
   font-size: 24px;
   font-weight: 600;
   line-height: 35px;
-  display: flex;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 50px;
   text-align: center;
-  padding-top: 190px;
 }
-.service-title {
-  padding-right: 100px;
+.service-info {
+
+  /* display: flex; */
+  /* text-align: center; */
+  /* padding-top: 190px; */
+  /* padding-top: 30px;
+  padding-left: 140px;
+  padding-right: 120px; */
 }
 /* Hot sale section  */
 .sale {
