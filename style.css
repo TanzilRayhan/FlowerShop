@@ -6,23 +6,48 @@
 .section-size {
   max-width: 1440px;
 }
+/* navigation bar  */
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  /* align-items: center; */
+}
+.logo{
+  color: #272727 ;
+  font-size: 48px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+.menu{
+  list-style: none;
+  display: flex;
+  color: #272727;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  padding-top: 10px;
+  /* text-align: center; */
+}.menu li{
+  padding-left: 55px;
+}
 /* introduction */
 
 .header {
   background-color: rgba(229, 84, 115, 0.1);
   width: 1920px;
-  height: 850px;
+  height: 103vh;
 }
 .introduction {
   display: flex;
   margin: 0px 240px 0px 240px;
 }
+
 .flower1 {
-  margin-top: 50px;
   padding-left: 100px;
 }
 .intro {
-  margin-top: 197px;
+  margin-top: 150px;
   max-width: 700px;
 }
 .intro p {
