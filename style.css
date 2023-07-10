@@ -45,6 +45,34 @@
   font-size: 20px;
   font-weight: 700;
 }
+/* Featured Section  */
+/* service section  */
+.service {
+  display: flex;
+  /* text-align: center; */
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 130px 240px 130px 240px;
+  align-items: center;
+  text-align: center;
+}
+.service-icon{
+padding-left: 317px;
+}
+.service-info {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  display: flex;
+  text-align: center;
+  padding-top: 190px;
+}
+.service-title{
+  padding-right: 100px;
+}
 /* Hot sale section  */
 .sale {
   display: flex;
@@ -55,9 +83,9 @@
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
 }
-.sale-info{
-    text-align: center;
-    padding-left: 395px;
+.sale-info {
+  text-align: center;
+  padding-left: 395px;
 }
 .sale h1 {
   color: #272727;
@@ -72,12 +100,12 @@
   line-height: 30px;
   padding: 24px 0px 24px 0px;
 }
-.sale button{
-    margin-bottom: 150px;
+.sale button {
+  margin-bottom: 150px;
 }
-.sale-flower{
-    margin-left: 160px;
-    margin-right: 429px;
+.sale-flower {
+  margin-left: 160px;
+  margin-right: 429px;
 }
 /* instagram section  */
 .instagram {
