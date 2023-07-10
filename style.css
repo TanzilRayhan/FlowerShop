@@ -45,6 +45,40 @@
   font-size: 20px;
   font-weight: 700;
 }
+/* Hot sale section  */
+.sale {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1922px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.sale-info{
+    text-align: center;
+    padding-left: 395px;
+}
+.sale h1 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 230px;
+}
+.sale p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0px 24px 0px;
+}
+.sale button{
+    margin-bottom: 150px;
+}
+.sale-flower{
+    margin-left: 160px;
+    margin-right: 429px;
+}
 /* instagram section  */
 .instagram {
   text-align: center;
@@ -62,9 +96,9 @@
   line-height: 30px;
   padding: 32px 400px 32px 400px;
 }
-.flowers{
-    display: flex;
-    padding-right: 24px;
+.flowers {
+  display: flex;
+  padding-right: 24px;
 }
 .flower-images {
   width: 342px;
@@ -127,7 +161,7 @@ footer {
   font-weight: 800;
   padding-bottom: 30px;
 }
-.footer-end span {
+span {
   color: #e55473;
 }
 .footer-end p {
