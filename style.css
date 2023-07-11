@@ -29,13 +29,13 @@
   padding-left: 55px;
 }
 /* introduction */
-
 .header {
   background-color: rgba(229, 84, 115, 0.1);
-  height: 103vh;
+  height: 735px;
 }
 .introduction {
   display: flex;
+  justify-content: center;
   margin: 0px 170px 0px 200px;
 }
 .flower1 {
@@ -86,11 +86,13 @@
 }
 .featured-box {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 .featured-title {
   display: flex;
+  justify-content: center;
   color: #272727;
   font-size: 20px;
   font-weight: 700;
@@ -134,7 +136,7 @@
 /* service section  */
 .service {
   display: flex;
-  width: 1200px;
+  justify-content: center;
   height: 320px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
@@ -145,7 +147,6 @@
 .service-icon {
   width: 88px;
   height: 88px;
-  padding-left: 70px;
 }
 .service h3 {
   color: rgba(39, 39, 39, 0.8);
@@ -153,14 +154,14 @@
   font-weight: 600;
   line-height: 35px;
   padding-top: 30px;
-  padding-left: 100px;
+  padding-left: 50px;
   padding-right: 30px;
   text-align: center;
 }
 /* Hot sale section  */
 .sale {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 500px;
   border-radius: 8px;
@@ -194,6 +195,9 @@
 }
 /* instagram section  */
 .instagram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   margin: 130px 160px 130px 160px;
 }
@@ -210,12 +214,11 @@
 }
 .flowers {
   display: flex;
+  justify-content:space-around;
 }
 .flower-images {
   width: 280px;
   height: 330px;
-  padding-top: 30px;
-  padding-right: 24px;
 }
 
 /* subscription section  */
@@ -223,15 +226,18 @@
   background-image: url("Images/Rectangle\ 9.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 100px 150px 70px 150px;
+  background-position: top;
+  margin: 100px 150px 100px 150px;
   align-items: center;
   text-align: center;
-  width: 1200px;
-  height: 449px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .subscription h1 {
   color: #272727;
-  padding-top: 122px;
+  padding-top: 50px;
   padding-bottom: 30px;
   font-size: 40px;
   font-weight: 800;
@@ -253,10 +259,10 @@
   font-size: 16px;
   font-weight: 400;
   margin-right: 20px;
+  margin-bottom: 100px;
 }
 /* follow section  */
 .follow {
-  width: 1200px;
   height: 320px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
